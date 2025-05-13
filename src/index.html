@@ -6,16 +6,17 @@
   <title>Odin Weather App</title>
 </head>
 <body>
-  <div>
+  <div class="header-div">
+    <h1>weather</h1>
     <div>
       <form action="" id="search-form">
-        <label for="location">
-          enter a location: 
-          <input type="text" name="location" id="location"> 
-        </label>
+        <input type="text" name="location" id="location" placeholder="type location here..."> 
         <button type="submit" class="search-button">search</button>
       </form>
+      <p id="header-p" hidden>showing weather for: </p>
     </div>
+    
   </div>
+  <div class="content-div"></div>
 </body>
 </html>
