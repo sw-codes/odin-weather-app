@@ -2,7 +2,7 @@ import "./styles.css";
 
 async function getWeatherData(location) {
   const response = await fetch(
-    `https://weather.visualcrossing.com/VisualCrossingWebServices/rest/services/timeline/${location}?unitGroup=uk&key=WKEVAHX8UL465663P4SME4SVQ&contentType=json`
+    `https://weather.visualcrossing.com/VisualCrossingWebServices/rest/services/timeline/${location}?unitGroup=uk&key=&contentType=json`
   );
   const weatherData = await response.json();
   console.log(weatherData);
