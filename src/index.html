@@ -8,7 +8,11 @@
 <body>
   <div class="header-div">
     <h1>weather</h1>
-    <div>
+    <div class="form-div">
+      <select name="temp-format" id="temp-format">
+        <option value="celcius">°c</option>
+        <option value="fahrenheit">°f</option>
+      </select>
       <form action="" id="search-form">
         <input type="text" name="location" id="location" placeholder="type location here..."> 
         <button type="submit" class="search-button">search</button>
